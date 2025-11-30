@@ -1,7 +1,7 @@
 .transactionHistory {
   width: 600px;
   border-collapse: collapse;
-  margin: 20px 0;
+  margin: 50px 0;
   font-size: 18px;
   text-align: center;
   font-family: Arial, sans-serif;
@@ -9,7 +9,7 @@
 }
 
 .transactionHistory th {
-  background-color: #333;
+  background-color: #0b0a0aeb;
   color: white;
   border: 2px solid #000000;
   padding: 5px;
@@ -39,6 +39,10 @@
 
 .transactionHistory tr:nth-child(odd) {
   background-color: #f9f9f9;
+}
+
+.transactionHistory tr:hover {
+  background-color: rgba(255, 215, 0, 0.8);
 }
 
 .transactionType {

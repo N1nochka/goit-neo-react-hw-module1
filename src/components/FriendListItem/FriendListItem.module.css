@@ -10,12 +10,13 @@
   border-radius: 10px;
   background-color: #f9f9f9;
 
-  transition: transform 0.5s ease;
+  transition: transform 0.5s ease, box-shadow 200ms;
 }
 
 .card:hover,
 .card:focus {
   transform: scale(1.1);
+  box-shadow: 0 0 20px rgba(255, 215, 0, 0.8); /* золотой */
 }
 
 .card img {
